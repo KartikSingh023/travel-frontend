@@ -5,6 +5,8 @@ import AboutPage from "./Pages/AboutPage";
 import Package from "./Pages/Package";
 import SignIn from "./Pages/SignIn";
 import SignUp from "./Pages/SignUp";
+import Team from "./Pages/Team";
+import Banner from "./Pages/Banner";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/package" element={<Package />} exact />
         <Route path="/signin" element={<SignIn />} exact />
         <Route path="/signup" element={<SignUp />} exact />
+        <Route path="/team" element={<Team />} exact />
+        <Route path="/banner" element={<Banner />} exact />
       </Routes>
     </div>
   );

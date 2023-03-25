@@ -25,7 +25,7 @@ const Links = [
   ["Packages", "/package"],
   ["About Lakshadweep", "#"],
   ["About Us", "/about"],
-  ["GoI", "#"],
+  ["GoI", "/team"],
   ["Support", "#"],
 ];
 
